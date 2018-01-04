@@ -1,0 +1,39 @@
+
+
+ul{
+	position:fixed;
+	top: 0px;
+	width: 100%;
+	background-color: #FFFFFF;
+	list-style-type: none;
+	border-bottom: solid 2px  #FB5656;
+}
+
+li{
+	float: right;
+}
+
+li a{
+	display: block;
+	color: #FB5656;
+	text-align: center;
+	padding: 45px 43px;
+	text-decoration: none;
+}
+
+li a:hover{
+	background-color: #FB5656;
+	color: white;
+}
+
+li a img{
+	height: 100px;
+	width: 130px;
+}
+
+
+.logo{
+	padding: 0px;
+	float: left;
+	margin-left: 30px;
+}
