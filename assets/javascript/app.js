@@ -75,7 +75,7 @@ var usStates = [
 		    click: function(event) {
                
                 // console.log(queryURL);
-                $('.btn').text(this.text);
+                $('#dropdownMenuButton').text(this.text);
                 
             }
 		});
