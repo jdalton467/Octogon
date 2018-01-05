@@ -12,7 +12,7 @@
 			<ul class="nav-list">
 				<li class="logo"><a class="logo" href="#"><img src="assets/images/lionel.jpg" alt="lionel"></a></li>
 				<li id="CompanyName"><h1>Lionel & Partners</h1></li>
-				<li><a href="#">Contact</a></li>
+				<li><a href="#" class="contact" data-target="#form-container">Contact</a></li>
 				<li><a href="#">Pricing</a></li>
 				<li><a href="#">Services</a></li>
 				<li><a href="#">About</a></li>
@@ -41,13 +41,33 @@
 		<div class="form-container">
 			<form>
 			  <div class="form-group">
-			    <label for="formGroupExampleInput">Example label</label>
-			    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input">
+			    <label for="formGroupExampleInput">First Name</label>
+			    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="First">
 			  </div>
 			  <div class="form-group">
-			    <label for="formGroupExampleInput2">Another label</label>
-			    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input">
+			    <label for="formGroupExampleInput2">Last</label>
+			    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Last">
 			  </div>
+			  <div class="form-group">
+			    <label for="formGroupExampleInput2">Email</label>
+			    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Email">
+			  </div>
+			  <div class="form-group">
+			    <label for="formGroupExampleInput2">ZipCode</label>
+			    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="ZipCode">
+			  </div>
+			  <div class="form-group">
+			    <label for="formGroupExampleInput2">US State</label>
+			    <div class="dropdown">
+				  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				    US State
+				  </button>
+				  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+				   
+				  </div>
+				</div>
+			  </div>
+			  <input class="btn btn-primary" type="submit" value="Submit">
 			</form>
 		</div>
 		<div class="footer-container">
@@ -58,9 +78,13 @@
 		</div>
 		
 	</body>
-	<script type="text/javascript" src="assets/javascript/app.js"></script>
-	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+		<script src="https://code.jquery.com/jquery-3.2.1.js"
+		  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+		  crossorigin="anonymous"></script>
+		<!-- <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script> -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+		
+		<script type="text/javascript" src="assets/javascript/app.js"></script>
 	
 </html>
