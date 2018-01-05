@@ -73,10 +73,12 @@ li a img{
 	width: 100%;
 	height: 100%;
 	top: 7em;
+
 }
 
 video{
 	width: 100%;
+	border-bottom: 2px solid #FB5656;
 }
 
 
@@ -112,4 +114,20 @@ video{
 	z-index: 10;
 	position: relative;
 	top: 375px;
+}
+
+#text-container1{
+	position: absolute;
+	top: 54em;
+	left: 4em;
+	width: 32em;
+	color: #FB5656;
+}
+
+#text-container2{
+	position: absolute;
+	top: 54em;
+	right: 4em;
+	width: 32em;
+	color: #FB5656;
 }
