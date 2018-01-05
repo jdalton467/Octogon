@@ -80,15 +80,28 @@ video{
 }
 
 
-#vidPlay{
+#play{
 	
 	height: 85px;
-	width: 290px;
+	width: 320px;
 	border-radius: 39.5px;
 	left: 32.31em;
 	position: absolute;
-	
+	border: 2px solid #FB5656;
+	background-color: transparent;
 	/*z-index: 10;*/
+}
+
+#replay{
+	
+	height: 85px;
+	width: 320px;
+	border-radius: 39.5px;
+	left: 32.31em;
+	position: absolute;
+	border: 2px solid #FB5656;
+	background-color: transparent;
+	display: none;
 }
 
 
