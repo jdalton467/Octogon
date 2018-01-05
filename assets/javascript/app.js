@@ -83,7 +83,12 @@ var usStates = [
 	}
 
 
-	function vidplay(){
+	
+
+
+});
+
+function vidplay(){
 		var video = document.getElementById("Video1");
 		var button = document.getElementById("play");
 		var replay = document.getElementById("replay");
@@ -121,7 +126,4 @@ $(".contact").click(function() {
     $('html, body').animate({
         scrollTop: $(".form-container").offset().top
     }, 2000);
-});
-
-
 });

@@ -142,11 +142,32 @@ video{
 .form-container{
 	position: absolute;
 	top: 85em;
-	background-color: red;
-	width: 60%;
-	left: 16.875em;
+	/*background-color: red;*/
+	border: 2px solid #FB5656;
+	width: 40%;
+	left: 25.313em;
 	padding: 20px;
+	border-radius: 35px;
+
 }
+
+.submit{
+	background-color: #FB5656;
+	border-radius: 0px;
+	margin-left: 13em;
+	border: none;
+}
+
+.submit:hover{
+	background-color: #AC0000;
+}
+
+.dropdown-menu{
+	height: 200px;
+	overflow: auto;
+}
+
+
 
 .footer-container{
 	position: absolute;
@@ -158,6 +179,10 @@ video{
     background-color: #EEEEEE;
 	clear: both;
 }
+
+
+
+
 
 .footer-list{
 	width: 100%;
