@@ -90,7 +90,7 @@ var usStates = [
 
 
 
-function IsValid(zip, email) {
+function IsEmailZipValid(zip, email) {
     var isValidZip = /^[0-9]{5}(?:-[0-9]{4})?$/.test(zip);
     var isValidEmail = /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/.test(email);
 
@@ -109,6 +109,33 @@ function IsValid(zip, email) {
     	alert('Invalid ZipCode');
     }
 }
+
+function IsNameValid(first, last){
+	var isValidFirst = /^[a-zA-Z]+$/.test(first);
+	var isValidLast = /(\w+([-'])(\w+)?[']?(\w+))/.test(last)
+
+	if(isValidFirst && isValidLast){
+		alert('Valid First Name');
+		alert('Valid Last Name');
+	}else if(!isValidFirst && isValidLast){
+		alert('Invalid First Name');
+		alert('Valid Last Name');
+	}else if(isValidFirst && !isValidLast){
+		alert('Valid First Name');
+		alert('Invalid Last Name');
+	}else{
+		alert('Invalid First Name');
+		alert('Invalid Last Name');
+	}
+}
+
+
+
+
+
+
+
+
 
 function vidplay(){
 		var video = document.getElementById("Video1");

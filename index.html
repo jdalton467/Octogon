@@ -42,19 +42,19 @@
 			<form>
 			  <div class="form-group">
 			    <label for="formGroupExampleInput">First Name</label>
-			    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="First">
+			    <input type="text" class="form-control" id="formGroupExampleInput" name="first"placeholder="First">
 			  </div>
 			  <div class="form-group">
 			    <label for="formGroupExampleInput2">Last</label>
-			    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Last">
+			    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="last" name="last">
 			  </div>
 			  <div class="form-group">
 			    <label for="formGroupExampleInput2">Email</label>
-			    <input type="text" class="form-control" id="formGroupExampleInput2" name="email"placeholder="Email">
+			    <input type="text" class="form-control" id="formGroupExampleInput2" name="email" placeholder="Email">
 			  </div>
 			  <div class="form-group">
 			    <label for="formGroupExampleInput2">ZipCode</label>
-			    <input type="text" class="form-control" id="formGroupExampleInput2" name="zip"placeholder="ZipCode">
+			    <input type="text" class="form-control" id="formGroupExampleInput2" name="zip" placeholder="ZipCode">
 			  </div>
 			  <div class="form-group">
 			    <label for="formGroupExampleInput2">US State</label>
@@ -67,7 +67,7 @@
 				  </div>
 				</div>
 			  </div>
-			  <input class="btn btn-primary submit" type="submit" value="Submit" onclick="IsValid(this.form.zip.value, this.form.email.value)">
+			  <input class="btn btn-primary submit" type="submit" value="Submit" onclick="IsNameValid(this.form.first.value, this.form.last.value); IsEmailZipValid(this.form.zip.value, this.form.email.value)">
 			</form>
 		</div>
 		<div class="footer-container">
