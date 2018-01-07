@@ -88,6 +88,28 @@ var usStates = [
 
 });
 
+
+
+function IsValid(zip, email) {
+    var isValidZip = /^[0-9]{5}(?:-[0-9]{4})?$/.test(zip);
+    var isValidEmail = /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/.test(email);
+
+
+    if (isValidEmail && isValidZip){
+        alert('Valid Email');
+        alert('Valid ZipCode')
+    }else if(!isValidEmail && isValidZip){
+    	alert('Invalid Email');
+    	alert('Valid ZipCode');
+    }else if(isValidEmail && !isValidZip){
+    	alert('Valid Email');
+    	alert('invalid ZipCode');
+    }else{
+    	alert('Invalid Email');
+    	alert('Invalid ZipCode');
+    }
+}
+
 function vidplay(){
 		var video = document.getElementById("Video1");
 		var button = document.getElementById("play");

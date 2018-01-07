@@ -50,11 +50,11 @@
 			  </div>
 			  <div class="form-group">
 			    <label for="formGroupExampleInput2">Email</label>
-			    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Email">
+			    <input type="text" class="form-control" id="formGroupExampleInput2" name="email"placeholder="Email">
 			  </div>
 			  <div class="form-group">
 			    <label for="formGroupExampleInput2">ZipCode</label>
-			    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="ZipCode">
+			    <input type="text" class="form-control" id="formGroupExampleInput2" name="zip"placeholder="ZipCode">
 			  </div>
 			  <div class="form-group">
 			    <label for="formGroupExampleInput2">US State</label>
@@ -67,7 +67,7 @@
 				  </div>
 				</div>
 			  </div>
-			  <input class="btn btn-primary submit" type="submit" value="Submit">
+			  <input class="btn btn-primary submit" type="submit" value="Submit" onclick="IsValid(this.form.zip.value, this.form.email.value)">
 			</form>
 		</div>
 		<div class="footer-container">
