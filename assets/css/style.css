@@ -269,7 +269,7 @@ li a img{
 .logo{
 	padding: 0px;
 	float: left;
-	margin-left: 10px;
+	margin-left: 30px;
 }
 
 .logo:hover{
@@ -278,7 +278,7 @@ li a img{
 }
 
 #CompanyName{
-	left: 80px;
+	left: 120px;
 	color: #FB5656;
 	position: absolute;
 	margin-top: 8px;

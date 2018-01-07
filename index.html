@@ -2,15 +2,15 @@
 <html>
 	<head>
 		<title>Ocotogon</title>
-		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
 	<body>
 		<div class="nav-container">
 			<ul class="nav-list">
-				<li class="logo"><a class="logo" href="#"><img src="assets/images/lionel.jpg" alt="lionel"></a></li>
+				<li class="logo"><a class="logo" href="#"><img src="images/lionel.jpg" alt="lionel"></a></li>
 				<li id="CompanyName"><h2>Lionel & Partners</h2></li>
 				<li><a href="#" class="contact" data-target="#form-container">Contact</a></li>
 				<li><a href="#">Pricing</a></li>
@@ -20,7 +20,7 @@
 		</div>
 		<div class="video-container">
 			<video id="Video1" onended="showReplay()">
-				<source src="assets/video/lionVid.mp4" type="video/mp4">
+				<source src="video/lionVid.mp4" type="video/mp4">
 			</video>
 		</div>
 		<div class="button-container">
@@ -39,10 +39,10 @@
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus eos minus fugiat odit unde nam, ullam eveniet itaque illum alias et doloremque, deleniti molestias optio aliquid saepe, numquam corporis debitis! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima tempora id labore obcaecati facilis eveniet, earum, temporibus reiciendis sed sapiente nemo, nulla itaque voluptatem repellat et in ipsam neque a! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae voluptatum nihil praesentium fugiat tempore accusamus distinctio explicabo numquam molestias sit est assumenda, laudantium dignissimos ullam labore quae, repudiandae, sint omnis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi non labore, quas numquam, neque exercitationem minus enim beatae sequi pariatur et qui itaque est eligendi ea error deserunt illo dolorum! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae unde ullam iste aut quam facilis quibusdam amet distinctio sed, voluptatum, reiciendis nam facere maxime sunt voluptatibus saepe ad, alias perferendis.</p>
 		</div>
 		<div class="form-container">
-			<form>
+			<form action="/" method="post">
 			  <div class="form-group">
 			    <label for="formGroupExampleInput">First Name</label>
-			    <input type="text" class="form-control" id="formGroupExampleInput" name="first"placeholder="First">
+			    <input type="text" class="form-control" id="formGroupExampleInput" name="first" placeholder="First">
 			  </div>
 			  <div class="form-group">
 			    <label for="formGroupExampleInput2">Last</label>
@@ -67,7 +67,7 @@
 				  </div>
 				</div>
 			  </div>
-			  <input class="btn btn-primary submit" type="submit" value="Submit" onclick="IsNameValid(this.form.first.value, this.form.last.value); IsEmailZipValid(this.form.zip.value, this.form.email.value)">
+			  <input class="btn btn-primary submit" type="submit" value="Submit" >
 			</form>
 		</div>
 		<div class="footer-container">
@@ -85,6 +85,6 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 		
-		<script type="text/javascript" src="assets/javascript/app.js"></script>
+		<script type="text/javascript" src="javascript/app.js"></script>
 	
 </html>
