@@ -68,18 +68,19 @@ var usStates = [
 
 	for(var i = 0; i < usStates.length; i++){
 		console.log(usStates[i].name);
-		var newState = $('<a/>',{
+		var newState = $('<option/>',{
 			class: 'dropdown-item',
-	
+	        name: 'state',
 			text: usStates[i].name,
+            value: usStates[i].name,
 		    click: function(event) {
                
                 // console.log(queryURL);
-                $('#dropdownMenuButton').text(this.text);
+                $('#state').text(this.text);
                 
             }
 		});
-		$('.dropdown-menu').append(newState);
+		$('#state').append(newState);
 	}
 
 
@@ -87,6 +88,18 @@ var usStates = [
 
 
 });
+
+
+
+function submit(){
+    var state = getElementById('dropdownMenuButton').text()
+
+
+    $.post('/', state, function(data){
+        console.log(data);
+    });
+}
+
 
 
 

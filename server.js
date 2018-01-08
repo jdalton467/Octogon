@@ -29,7 +29,8 @@ app.post('/', function(req, res){
 		first: req.body.first,
 		last: req.body.last,
 		email: req.body.email,
-		zip: req.body.zip
+		zip: req.body.zip,
+		state: req.body.state
 	});
 
 	form.save(function(err, doc){

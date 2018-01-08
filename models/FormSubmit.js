@@ -15,6 +15,9 @@ var formSchema = mongoose.Schema({
 	},
 	zip:{
 		type: String
+	},
+	state:{
+		type: String
 	}
 });
 
