@@ -8,8 +8,16 @@ var app = express();
 var port = process.env.PORT || 3000;
 
 
-mongoose.connect('mongodb://localhost/FormSubmit');
 
+
+var configDB = {
+	url: 'mongodb://localhost/FormSubmit'
+}
+if(process.env.MONGODB_URI){
+	mongoose.connect(process.env.MONGODB_URI);
+}else{
+	mongoose.connect(configDB.url);
+}
 
 
 app.set('view engine', 'html');
